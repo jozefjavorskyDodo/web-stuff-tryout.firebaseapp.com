@@ -1,0 +1,35 @@
+* {
+    user-select: none !important;
+    font-family: cursive !important;
+    font-size: 4mm !important;
+    font-weight: 900 !important;
+}
+
+#sudoku-grid-container {
+    margin: 0 0 0 3cm;
+    border-radius: 2mm;
+    box-shadow: 0 0 10cm 3cm rgb(31, 31, 31);
+}
+
+td {
+    border: 1mm solid rgb(122, 122, 122);
+    border-radius: 2mm;
+    padding: 0 2mm 0 2mm;
+    color: rgb(0, 0, 0);
+}
+
+.firstRowBttn {
+    margin: 0 0 0 15mm;
+}
+
+.secondRowBttn {
+    margin: 0 0 0 3cm;
+}
+
+#solve-bttn {
+    visibility: hidden;
+}
+
+span {
+    color: rgb(244, 244, 0) !important;
+}
